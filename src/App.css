@@ -1,22 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 body {
-    font-family: 'Roboto Slab', serif;
-}
-
-.App-header {
-    
-}
-
-.App-title {
-    background-color: #73b99f;
-    font-family: inherit;
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing:	0.1px;
-    color: #fff;
-    z-index: 2;
-    padding: 30px 15px;
+    font-family: 'Lato', sans-serif;
 }
 
 #vanta {

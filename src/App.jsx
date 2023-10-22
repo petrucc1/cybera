@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo-cybera.png';
 import Home from './components/Bg-home';
+import Nav from './components/Nav';
 import './App.css';
 import "./reset.css"
 
@@ -9,8 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div id="logo">
-          
-          <h1 className='App-title'>CYBERA</h1>
+        <Nav /> 
         </div>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Home />

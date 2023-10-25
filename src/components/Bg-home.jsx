@@ -5,7 +5,7 @@ function Home() {
   useEffect(() => {
     GLOBE({
       el: "#vanta",
-      backgroundColor: "#73b99f",
+      backgroundColor: "#FFF",
       color: "#fff",
       color2: "#fff",
       mouseControls: false,

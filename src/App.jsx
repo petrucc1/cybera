@@ -1,19 +1,19 @@
-import React from 'react';
-// import logo from './logo-cybera.png';
-import Home from './components/Bg-home';
-import Nav from './components/Nav';
-import './App.css';
-import "./reset.css"
+import React from "react";
+import Home from "./components/Bg-home";
+import Nav from "./components/Nav";
+import "./App.css";
+import "./reset.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div id="logo">
-        <Nav /> 
+        <div>
+          <Nav />
         </div>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <Home />
+        <div>
+          <Home />
+        </div>
       </header>
     </div>
   );
